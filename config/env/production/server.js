@@ -1,4 +1,4 @@
 module.exports = ({ env }) => ({
-    url: env('https://myweb-api-fcontreras2.herokuapp.com'),
-  });
+    url: env('MY_HEROKU_URL'),
+});
    
