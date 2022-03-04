@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "description_og": {
+      "type": "text"
+    },
+    "title_og": {
+      "type": "string"
+    }
+  }
+}
