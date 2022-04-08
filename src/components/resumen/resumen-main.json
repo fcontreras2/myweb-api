@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_resumen_resumen_mains",
+  "info": {
+    "displayName": "resumen_main",
+    "icon": "car-side",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

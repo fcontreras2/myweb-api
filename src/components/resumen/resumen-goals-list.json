@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_resumen_resumen_goals_lists",
+  "info": {
+    "displayName": "resumen_goals_list",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lilnk": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

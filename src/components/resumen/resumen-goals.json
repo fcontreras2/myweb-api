@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_resumen_resumen_goals",
+  "info": {
+    "displayName": "resumen_goals",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "resumen_goals_list": {
+      "displayName": "resumen_goals_list",
+      "type": "component",
+      "repeatable": false,
+      "component": "resumen.resumen-goals-list"
+    }
+  }
+}

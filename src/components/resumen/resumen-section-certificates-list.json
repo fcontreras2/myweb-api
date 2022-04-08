@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_resumen_resumen_section_certificates_lists",
+  "info": {
+    "displayName": "Resumen_certificates_list",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dates": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    }
+  }
+}

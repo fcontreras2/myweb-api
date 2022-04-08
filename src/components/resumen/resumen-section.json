@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_resumen_resumen_sections",
+  "info": {
+    "displayName": "Resumen_section",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resumen_section_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resumen.resumen-list"
+    }
+  }
+}

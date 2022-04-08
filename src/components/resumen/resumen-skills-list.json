@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resumen_resumen_skills_lists",
+  "info": {
+    "displayName": "resumen_skills_list",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    }
+  }
+}

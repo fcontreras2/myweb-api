@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_resumen_resumen_skills",
+  "info": {
+    "displayName": "Resumen_skills",
+    "icon": "dna",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "resumen_skills_list": {
+      "displayName": "resumen_skills_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "resumen.resumen-skills-list"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

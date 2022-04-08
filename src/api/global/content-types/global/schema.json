@@ -4,7 +4,7 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "global",
+    "displayName": "Global",
     "description": ""
   },
   "options": {
@@ -26,6 +26,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.avatar"
+    },
+    "link_github": {
+      "type": "string"
+    },
+    "link_linkedin": {
+      "type": "string"
     }
   }
 }

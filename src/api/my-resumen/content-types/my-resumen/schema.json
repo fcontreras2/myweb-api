@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_resumens",
+  "info": {
+    "singularName": "my-resumen",
+    "pluralName": "my-resumens",
+    "displayName": "My resumen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dynamics_components": {
+      "type": "dynamiczone",
+      "components": [
+        "resumen.resumen-goals",
+        "resumen.resumen-section",
+        "resumen.resumen-section-certificates",
+        "resumen.resumen-skills"
+      ]
+    },
+    "resumen_main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resumen.resumen-main"
+    }
+  }
+}
